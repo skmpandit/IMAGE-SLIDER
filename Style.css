@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.hero
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f0c08;
+}
+#image1{
+    background-image: url("images/pic1.jpg");
+}
+#image2{
+    background-image: url("images/pic2.jpg");
+}
+#image3{
+    background-image: url("images/pic3.jpg");
+}
+#image4{
+    background-image: url("images/pic4.jpg");
+}
+#image5{
+    background-image: url("images/pic5.jpg");
+}
+#image6{
+    background-image: url("images/pic6.jpg");
+}
+#image7{
+    background-image: url("images/pic7.jpg");
+}
+#image8{
+    background-image: url("images/pic8.jpg");
+}
+#image9{
+    background-image: url("images/pic9.jpg");
+}
+#image10{
+    background-image: url("images/pic10.jpg");
+}
+#image11{
+    background-image: url("images/pic11.jpg");
+}
+#image12{
+    background-image: url("images/pic12.jpg");
+}
+#image13{
+    background-image: url("images/pic13.jpg");
+}
+#image14{
+    background-image: url("images/pic14.jpg");
+}
+#image15{
+    background-image: url("images/pic15.jpg");
+}
+#image16{
+    background-image: url("images/pic16.jpg");
+}
+#image17{
+    background-image: url("images/pic17.jpg");
+}
+
+

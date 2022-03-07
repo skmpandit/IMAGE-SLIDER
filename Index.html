@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elastic Image Slider</title>
+    <link rel="Stylesheet" href="Style.css">
+    <link rel="Stylesheet" href="elastic-slider.css">
+    <style>
+        .clipped-left {
+            -webkit-clip-path: url(#clipped-left);
+            clip-path: url(#clipped-left);
+        }
+        .clipped-right {
+            -webkit-clip-path: url(#clipped-right);
+            clip-path: url(#clipped-right);
+        }
+    </style>
+    
+    <script src="elastic-slider.js"></script>
+    <script src="snap.svg-min.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="elastic-slider">
+            <div id="image1"></div>
+            <div id="image2"></div>
+            <div id="image4"></div>
+            <div id="image5"></div>
+            <div id="image6"></div>
+            <div id="image7"></div>
+            <div id="image8"></div>
+            <div id="image9"></div>
+            <div id="image10"></div>
+            <div id="image11"></div>
+            <div id="image12"></div>
+            <div id="image13"></div>
+            <div id="image14"></div>
+            <div id="image15"></div>
+            <div id="image16"></div>
+            <div id="image17"></div>
+        </div>
+    </div>
+    <script>
+        new ElasticSlider('.elastic-slider');
+    </script>
+</body>
+</html>
